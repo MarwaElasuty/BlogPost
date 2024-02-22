@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bitter", serif;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 80px;
+    letter-spacing: -1.5px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 40px;
+    letter-spacing: -0.6px;
+}
+
+h3{
+    font-size: 40px;
+    margin-top: 40px;
+    letter-spacing: 0px;
+}
+
+h4{
+    font-size: 30px;
+    letter-spacing: 0.25;
+}
+
+h5{
+    font-size: 25px;
+    letter-spacing: 0.25;
+}
+
+h6{
+    font-size: 20px;
+    letter-spacing: 0.25;
+}
+p{
+    margin: 20px 0 20px;
+    font-weight: 600;
+
+}
+.main-title{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container{
+    width: 68%;
+    max-width: 900px;
+}
+
+.main-title p{
+    margin: 40px 0;
+}
+.main-title hr{
+    width: 70%;
+    margin: auto;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.date {
+    font-family: "Mukta", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+code {
+    color: orange;
+    font-weight: 600;
+}
+
+.headline {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 40px 0;
+    font-size: 17px;
+}
+
+.container>p:nth-of-type(3),
+.container>p:nth-of-type(4) {
+    margin: 40px 0;
+
+}
+
+.quote {
+    margin: 20px 82px 40px;
+    font-size: 15px;
+    font-style: italic;
+    border-left: 3px solid orange;
+    padding-left: 15px;
+}
+
+.quote cite {
+    display: block;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+/* quote media query */
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+    .quote{
+        margin: 20px 0px 40px;
+    }
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+    .quote{
+        margin: 20px 0px 40px;
+    }
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
+    .quote{
+        margin: 20px 0px 40px;
+    }
+}
+@media  screen and (max-width: 600px){
+    .quote{
+        margin: 20px 0px 40px;
+    }
+}
+
+.desc{
+    margin: 30px 0;
+}
+
+.fonts{
+    color: orange;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    padding-right: 3px;
+}
+
+.fonts-heading{
+    margin: 28px 0 28px;
+}
+
+footer{
+    background-color: purple;
+}
+
+footer ul a{
+    color: white;  
+    text-decoration: none;
+    padding: 0 20px;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 25px 0;
+}
